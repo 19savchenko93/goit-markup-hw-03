@@ -14,13 +14,19 @@ body {
     color: var(--main-text-color);
     background-color: var(--background-white);
 }
-
+img {
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+}
+.header {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .header-container {
     display: flex;
     align-items: center;
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #ECECEC;
@@ -162,10 +168,12 @@ body {
     border-radius: 4px;
 }
 /* Benefits */
-.benefits-conteiner{
-    width: 1200px;
+.benefits {
     padding-left: 15px;
     padding-right: 15px;
+}
+.benefits-conteiner{
+    width: 1200px;
     padding-bottom: 94px;
     padding-top: 94px;
     margin-left: auto;
@@ -187,6 +195,7 @@ body {
 .benefits-item {
     display: block;
     margin-right: 30px;
+    width: 270px;
     }
 .benefits-item:last-child{
     margin-right: 0;
@@ -215,10 +224,12 @@ body {
     letter-spacing: 0.03em;
 }
 /* What we do */
-.work-contanier{
-    width: 1200px;
+.works {
     padding-left: 15px;
     padding-right: 15px;
+}
+.work-contanier{
+    width: 1200px;
     padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
@@ -249,11 +260,11 @@ body {
 /* Our team */
 .team {
     background-color: var(--background-gray);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .team-container{
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 94px;
     padding-bottom: 94px;
     margin-left: auto;
@@ -287,8 +298,12 @@ body {
 .team-item:last-child{
     margin-right: 0;
 }
+.team-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .team-subtitle{
-    margin-top: 30Px;
+    margin-top: 0;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -301,7 +316,7 @@ body {
 }
 .team-text{
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0;
     text-align: center;
     font-weight: 400;
     font-size: 16px;
@@ -312,11 +327,11 @@ body {
 /* Footer */
 .footer{
     background-color: var(--background-accent);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .footer-container {
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
     margin-left: auto;
@@ -358,21 +373,16 @@ body {
 }
 /* Portfolio */
 .portfolio {
+    padding-top: 94px;
     padding-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .portfolio-container{
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 60px;
-    padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
-}
-.portfolio-title{
-    visibility: hidden;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
 }
 .portfolio-list{
     margin-top: 0;
@@ -414,7 +424,7 @@ body {
 /* Examples */
 .examples-container{
     display: flex;
-    width: 1210px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     /* padding-top: 60px;
@@ -432,7 +442,7 @@ body {
     margin-left: -30px;
 }
 .examples-item{
-    flex-basis: calc(100%/4 - 30px);
+    flex-basis: calc(100% / 3 - 30px);
     background: var(--backgroun-white);
     margin-top: 30px;
     margin-left: 30px;
