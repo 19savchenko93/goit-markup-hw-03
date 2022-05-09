@@ -20,8 +20,6 @@ img {
     height: auto;
 }
 .header {
-    padding-left: 15px;
-    padding-right: 15px;
     border-bottom: 1px solid #ECECEC;
 }
 .header-container {
@@ -30,6 +28,8 @@ img {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     }
 
 /* Header */
@@ -337,13 +337,13 @@ img {
 /* Footer */
 .footer{
     background-color: var(--background-accent);
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 .footer-container {
     width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
